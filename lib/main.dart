@@ -42,7 +42,7 @@ class RandomWordsState extends State<RandomWords> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Startup Name Generator'),
+        title: Text('Startup Name Generator!'),
         actions: <Widget>[
           new IconButton(icon: const Icon(Icons.list), onPressed: _pushSaved)
         ],
